@@ -1,0 +1,159 @@
+{"frames": {
+
+"0_Minotaur_Idle Blinking_000.png":
+{
+	"frame": {"x":275,"y":426,"w":213,"h":270},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":107,"w":213,"h":270},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_001.png":
+{
+	"frame": {"x":1,"y":855,"w":214,"h":270},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":107,"w":214,"h":270},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_002.png":
+{
+	"frame": {"x":1,"y":1072,"w":215,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":106,"w":215,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_003.png":
+{
+	"frame": {"x":547,"y":1073,"w":216,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":106,"w":216,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_004.png":
+{
+	"frame": {"x":274,"y":1072,"w":215,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":106,"w":215,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_005.png":
+{
+	"frame": {"x":273,"y":856,"w":214,"h":272},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":101,"y":105,"w":214,"h":272},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_006.png":
+{
+	"frame": {"x":547,"y":427,"w":213,"h":272},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":100,"y":105,"w":213,"h":272},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_007.png":
+{
+	"frame": {"x":1,"y":640,"w":213,"h":272},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":105,"w":213,"h":272},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_008.png":
+{
+	"frame": {"x":1,"y":426,"w":212,"h":272},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":105,"w":212,"h":272},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_009.png":
+{
+	"frame": {"x":1,"y":213,"w":211,"h":272},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":105,"w":211,"h":272},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_010.png":
+{
+	"frame": {"x":1,"y":1,"w":210,"h":272},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":105,"w":210,"h":272},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_011.png":
+{
+	"frame": {"x":275,"y":1,"w":210,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":106,"w":210,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_012.png":
+{
+	"frame": {"x":548,"y":1,"w":210,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":106,"w":210,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_013.png":
+{
+	"frame": {"x":275,"y":213,"w":211,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":106,"w":211,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_014.png":
+{
+	"frame": {"x":548,"y":213,"w":212,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":106,"w":212,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_015.png":
+{
+	"frame": {"x":547,"y":642,"w":213,"h":271},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":106,"w":213,"h":271},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_016.png":
+{
+	"frame": {"x":275,"y":641,"w":213,"h":270},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":100,"y":107,"w":213,"h":270},
+	"sourceSize": {"w":450,"h":450}
+},
+"0_Minotaur_Idle Blinking_017.png":
+{
+	"frame": {"x":547,"y":857,"w":214,"h":270},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":101,"y":107,"w":214,"h":270},
+	"sourceSize": {"w":450,"h":450}
+}},
+"animations": {
+	"0_Minotaur_Idle Blinking": ["0_Minotaur_Idle Blinking_000.png","0_Minotaur_Idle Blinking_001.png","0_Minotaur_Idle Blinking_002.png","0_Minotaur_Idle Blinking_003.png","0_Minotaur_Idle Blinking_004.png","0_Minotaur_Idle Blinking_005.png","0_Minotaur_Idle Blinking_006.png","0_Minotaur_Idle Blinking_007.png","0_Minotaur_Idle Blinking_008.png","0_Minotaur_Idle Blinking_009.png","0_Minotaur_Idle Blinking_010.png","0_Minotaur_Idle Blinking_011.png","0_Minotaur_Idle Blinking_012.png","0_Minotaur_Idle Blinking_013.png","0_Minotaur_Idle Blinking_014.png","0_Minotaur_Idle Blinking_015.png","0_Minotaur_Idle Blinking_016.png","0_Minotaur_Idle Blinking_017.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "idle.png",
+	"format": "RGBA8888",
+	"size": {"w":820,"h":1290},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:5626d17405aef85ccb5d05fc85f00dac:636a5dba3a07eb0e39b400e7868e3b72:2fc640a8559bb61c19d8aa0e1aa27b21$"
+}
+}

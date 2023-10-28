@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pixi Game</title>
+        <script src="http://127.0.0.1:5500/js/pixi.min.js"></script>
+        <script>
+            let app
+            let player 
+            let mylocalhostAssets = 'http://127.0.0.1:5500/assets/'
+            window.onload = function(){
+                app = new PIXI.Application(
+                    {
+                        width : 800,
+                        height : 600,
+                        backgroundColor: 0x9300ff
+
+                    }
+                )
+                document.body.appendChild(app.view)
+
+                player =  PIXI.Sprite.from(mylocalhostAssets+"minotaur.png")
+                player.anchor.set(0.5)
+                player.scale.set(0.25)
+                player.x = app.view.width /2
+                player.y = app.view.height /2
+                app.stage.addChild(player)
+
+                //mouse interactions
+                
+                app.stage.interactive = true;
+                app.stage.on("pointermove", moveplayer)
+                
+            }
+
+            moveplayer = function(event){
+                let pos = event.data.global
+                player.x = pos.x
+                player.y = pos.y
+            }
+   
+        </script>
+
+    </head>
+</html>
