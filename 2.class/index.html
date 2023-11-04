@@ -63,6 +63,7 @@
             handleLoadComplete= function(){
                 console.log(loader.resources.walking)
                 var texture = loader.resources.walking.spritesheet
+                
                 console.log(texture)
                 img = new PIXI.AnimatedSprite(texture.animations['0_Minotaur_Walking'])
                 app.stage.addChild(img)
