@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pixi Game</title>
+        <script src="../js/pixi.min.js"></script>
+      
+
+    </head>
+    <body>
+        <body style="padding:0; margin: 0; overflow: hidden;" >
+
+            <canvas id="mycanvas" style="padding:0; margin: 0; display: block;  width: 100%; height: 100%;"></canvas>
+            <script>
+                var loader
+            let app
+            let player 
+            let mylocalhostAssets = 'http://127.0.0.1:5500/assets/'
+            const canvas = document.getElementById("mycanvas")
+            window.onload = function(){
+                app = new PIXI.Application(
+                    {
+                        view :canvas,
+                        width : 800,
+                        height : 600,
+                        backgroundColor: 0x9300ff,
+                        autoResize: true,
+                        resolution:window.devicePixelRatio,
+                        resizeTo:window,
+                        sharedTicker:true,
+                        antialias:true,
+                        powerPreference:'high-performance'
+
+                    }
+                )
+               
+
+                player =  PIXI.Sprite.from(mylocalhostAssets+"minotaur.png")
+                player.anchor.set(0.5)
+                player.scale.set(0.25)
+                player.x = app.view.width /2
+                player.y = app.view.height /2
+                app.stage.addChild(player)
+
+                //mouse interactions
+                
+                app.stage.interactive = true;
+                app.stage.on("pointermove", moveplayer)
+                sumas()
+                condicionales()
+
+              
+                loader =  PIXI.Loader.shared
+
+                loader.add('walking', "../assets/waking.json")
+                loader.onComplete.add(handleLoadComplete)
+                loader.load()
+                
+            }
+
+            handleLoadComplete= function(){
+                console.log(loader.resources.walking)
+                var texture = loader.resources.walking.spritesheet
+                console.log(texture)
+                img = new PIXI.AnimatedSprite(texture.animations['0_Minotaur_Walking'])
+                app.stage.addChild(img)
+                img.animationSpeed = 0.5;
+                img.play()
+              //  app.ticker.add(*
+
+
+
+            }
+
+            moveplayer = function(event){
+                let pos = event.data.global
+                player.x = pos.x
+                player.y = pos.y
+            }
+            sumas = function(){
+
+                var num1 = 5;
+                var num2 = 1;
+                var num3 = 0;
+
+                num3 = num1 + num2;
+                console.log("num3 :", num3)
+
+                num3 = num3 +1;
+                console.log("num3 :", num3)
+
+                num3 +=1;
+                console.log("num3 :", num3)
+
+                num3 ++;
+                console.log("num3 :", num3)
+                
+            }
+
+            condicionales = function(){
+
+                var num1 = 5;
+
+                if(num1 > 5)
+                console.log(" es ,mayor")
+
+
+                if(num1 < 5)
+                console.log(" es menor")
+
+
+                if(num1 == 5)
+                console.log(" es igual")
+            }
+   
+            animatedSprite =  function(){
+
+            }
+        </script>
+    </body>
+</html>
