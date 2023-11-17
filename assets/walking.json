@@ -198,7 +198,7 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.1",
-	"image": "waking.json.png",
+	"image": "walking.png",
 	"format": "RGBA8888",
 	"size": {"w":875,"h":1644},
 	"scale": "0.5",
